@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+#Main-Header {
+    padding: 10pt;
+    text-align: center;
+    text-justify: auto;
+}
+
+#Biography {
+    padding: 10pt;
+    text-align: center;
+    text-justify: auto;
+}
+
+#Portfolio {
+    padding: 10pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    padding: 10pt;
+    margin: 10pt;
+    border-width: 5pt;
+    border-style: solid;
+}
+
+#Project-1 {
+    border-color: pink;
+}
+
+#Project-2 {
+    border-color: plum;
+}
+
+#Project-N {
+    border-color: pink;
+}
